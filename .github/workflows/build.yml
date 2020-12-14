@@ -1,5 +1,7 @@
 name: Java CI
 
+# For PRs from internal developers, both push and pull_request builds are triggered.
+# For PRs from forked repos, only the pull_request build is triggered.
 on: [push, pull_request]
 
 jobs:
